@@ -10,9 +10,9 @@ data class Log(
         val score: Int,
         val thought: String,
         val createdDate: LocalDateTime,
-        val lastModified: LocalDateTime,
-        @ManyToOne val author: User,
-        @ManyToMany val tag: Tag
+        val lastModified: LocalDateTime
+//        @ManyToOne val author: User,
+//        @ManyToMany val tag: Tag
 )
 
 @Entity
